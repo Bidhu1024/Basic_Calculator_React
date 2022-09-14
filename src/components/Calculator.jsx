@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-
+import '../App.css';
 export default function Calculator() {
   const [val, setVal] = useState("");
   const backspace = () => {
@@ -38,7 +38,7 @@ export default function Calculator() {
                   value={val}
                   onClick={(e) => setVal(e.target.value)}
                 />
-                <div className="row">
+                <div className="row cardcontainer">
                   <div className="col-3">
                     <button
                       className="btn btn-light text-primary shadow p-4 fs-4"

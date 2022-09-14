@@ -1,0 +1,5 @@
+.cardcontainer [class='col-3']{
+    height: 5.8rem;
+    /* aspect-ratio: 1; */
+    width: 5rem;
+}
